@@ -1,0 +1,45 @@
+*{margin:0;padding:0}
+body{
+  background-color: #f5683d;
+  padding-top: 30vh;
+  padding-left: 80vh;
+}
+
+.form-container{
+  width: 200;
+  height: auto;
+  padding: 20px 30px;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 #000;
+  margin: auto;
+}
+
+ul.list{
+  list-style-type: none;
+  text-align-last: center;
+}
+ul.list li{
+width: 300px;
+margin-bottom: 20px;
+}
+ul.list li input{
+  width: 300px;
+  text align: center;
+  padding: 10px 0;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+}
+ul.list li input[type="botton"]
+{
+  background-color: red;
+  color: green;
+}
+ul.list li:nth-child(5){
+  color: black;
+}
+ul.list li:nth-child(6){
+  text-align-last: centre;
+  list-style-type: none;
+}
